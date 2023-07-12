@@ -18,7 +18,6 @@ async function fetchData() {
       cloud_pct.innerHTML = result.cloud_pct;
       temp.innerHTML = result.temp;
       temp2.innerHTML = result.temp;
-      // feels_like.innerHTML = result.feels_like;
       humidity.innerHTML = result.humidity;
       humidity2.innerHTML = result.humidity;
       min_temp.innerHTML = result.min_temp;
@@ -49,7 +48,7 @@ async function fetchData() {
       const result = await response.json();
       console.log(result);
 
-      // Update the table cells in the specified row with the weather details
+
       row.cells[1].textContent = result.temp;
       row.cells[2].textContent = result.cloud_pct;
       row.cells[3].textContent = result.feels_like;
@@ -69,7 +68,7 @@ async function fetchData() {
     e.preventDefault();
     const city = document.getElementById("cityname").value;
     const table = document.querySelector(".table");
-    const newRow = table.insertRow(); // Insert a new row at the end of the table
+    const newRow = table.insertRow();
     const cityNameCell = newRow.insertCell();
     cityNameCell.textContent = city;
     for (let i = 1; i <= 10; i++) {

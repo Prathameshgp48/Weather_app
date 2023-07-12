@@ -1,0 +1,44 @@
+h5 {
+  text-align: center;
+}
+
+.icon {
+  height: 50px;
+}
+
+.box {
+  height: 250px;
+  background-color: #c7ffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/8f342f30971807.563b2b138deaa.gif");
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+}
+
+.windy {
+  background: url("https://i.pinimg.com/originals/dc/58/4d/dc584d08b22fe4b6459b9897c9f74a0e.gif");
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+}
+
+.humid {
+  background: url("https://thumbs.dreamstime.com/b/humidity-icon-isolated-blue-background-weather-meteorology-thermometer-symbol-flat-design-vector-illustration-179207706.jpg");
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+}
+
+.foot {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.spacer {
+  height: 100px;
+}
+
