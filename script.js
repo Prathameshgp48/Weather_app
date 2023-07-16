@@ -10,6 +10,7 @@ async function fetchData() {
   async function getWeather(city) {
     const url =
       "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + city;
+    city = city.charAt(0).toUpperCase() + city.substr(1, city.length);
     cityname.innerHTML = city;
     try {
       const response = await fetch(url, options);
