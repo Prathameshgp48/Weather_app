@@ -1,15 +1,18 @@
+import { rapidApiKey, rapidApiHost } from "./config.js";
+
 async function fetchData() {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "e6c47b73fdmsh3e14cf78eb9606ep1d51e6jsn51d964db2fec",
-      "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com",
+      "X-RapidAPI-Key": rapidApiKey,
+      "X-RapidAPI-Host": rapidApiHost,
     },
   };
 
   async function getWeather(city) {
     const url =
       "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + city;
+    city = city.charAt(0).toUpperCase() + city.substr(1, city.length);
     cityname.innerHTML = city;
     try {
       const response = await fetch(url, options);
@@ -47,7 +50,6 @@ async function fetchData() {
       const response = await fetch(url, options);
       const result = await response.json();
       console.log(result);
-
 
       row.cells[1].textContent = result.temp;
       row.cells[2].textContent = result.cloud_pct;
