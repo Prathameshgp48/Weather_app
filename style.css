@@ -22,7 +22,7 @@ h5 {
 }
 
 .windy {
-  background: url("https://i.pinimg.com/originals/dc/58/4d/dc584d08b22fe4b6459b9897c9f74a0e.gif");
+  background: url("/assets/images/wind.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
@@ -60,19 +60,19 @@ h5 {
 }
 
 .temp {
-  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/8f342f30971807.563b2b138deaa.gif");
+  background: url("/assets/images/temp.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
 
 .windy {
-  background: url("https://i.pinimg.com/originals/dc/58/4d/dc584d08b22fe4b6459b9897c9f74a0e.gif");
+  background: url("/assets/images/wind.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
 
 .humid {
-  background: url("https://thumbs.dreamstime.com/b/humidity-icon-isolated-blue-background-weather-meteorology-thermometer-symbol-flat-design-vector-illustration-179207706.jpg");
+  background: url("/assets/images/humid.webp");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
@@ -85,4 +85,3 @@ h5 {
 .spacer {
   height: 100px;
 }
-
