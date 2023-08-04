@@ -51,6 +51,7 @@ async function fetchData() {
         "X-RapidAPI-Key": process.env.RAPID_API_KEY,
         "X-RapidAPI-Host": process.env.RAPID_API_HOST,
       },
+    };
     
     const url =
       "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + city;
