@@ -1,14 +1,15 @@
 
 async function fetchData() {
-  const options = {
+
+  async function getWeather(city) {
+    const options = {
     method: "GET",
      headers: {
         "X-RapidAPI-Key": process.env.RAPID_API_KEY,
         "X-RapidAPI-Host": process.env.RAPID_API_HOST,
       },
   };
-
-  async function getWeather(city) {
+    
     const url =
       "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=" + city;
     city = city.charAt(0).toUpperCase() + city.substr(1, city.length);
