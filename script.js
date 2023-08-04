@@ -1,12 +1,11 @@
-import { rapidApiKey, rapidApiHost } from "./config.js";
 
 async function fetchData() {
   const options = {
     method: "GET",
-    headers: {
-      "X-RapidAPI-Key": rapidApiKey,
-      "X-RapidAPI-Host": rapidApiHost,
-    },
+     headers: {
+        "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+        "X-RapidAPI-Host": process.env.RAPID_API_HOST,
+      },
   };
 
   async function getWeather(city) {
