@@ -16,19 +16,19 @@ h5 {
 }
 
 .temp {
-  background: url("temp.gif");
+  background: url("assets/images/temp.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
 
 .windy {
-  background: url("wind.gif");
+  background: url("assets/images/wind.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
 
 .humid {
-  background: url("humid.webp");
+  background: url("assets/images/humid.webp");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
