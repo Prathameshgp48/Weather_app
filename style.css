@@ -16,63 +16,19 @@ h5 {
 }
 
 .temp {
-  background: url("assets/images/temp.gif");
+  background: url("temp.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
 
 .windy {
-  background: url("assets/images/wind.gif");
+  background: url("wind.gif");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
 
 .humid {
-  background: url("assets/images/humid.webp");
-  background-size: 100% 100%;
-  background-repeat: no repeat;
-}
-
-.foot {
-  text-align: center;
-  font-weight: lighter;
-}
-
-.spacer {
-  height: 100px;
-}
-
-h5 {
-  text-align: center;
-}
-
-.icon {
-  height: 50px;
-}
-
-.box {
-  height: 250px;
-  background-color: #c7ffff;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.temp {
-  background: url("/assets/images/temp.gif");
-  background-size: 100% 100%;
-  background-repeat: no repeat;
-}
-
-.windy {
-  background: url("/assets/images/wind.gif");
-  background-size: 100% 100%;
-  background-repeat: no repeat;
-}
-
-.humid {
-  background: url("/assets/images/humid.webp");
+  background: url("humid.webp");
   background-size: 100% 100%;
   background-repeat: no repeat;
 }
